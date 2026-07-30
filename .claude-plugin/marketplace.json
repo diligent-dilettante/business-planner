@@ -1,0 +1,27 @@
+{
+  "name": "business-planner",
+  "owner": {
+    "name": "diligent-dilettante"
+  },
+  "description": "Grill-first business planning for physical/offline businesses \u2014 MSME to Venture, India-aware, with customer/competition simulation and strategy-ops.",
+  "plugins": [
+    {
+      "name": "business-planner",
+      "source": "./plugins/business-planner",
+      "description": "Six-skill bundle: plan, validate, simulate (customer + competition), and run a physical business \u2014 Livelihood to Venture, with deep India context.",
+      "version": "3.2.2",
+      "keywords": [
+        "business-plan",
+        "startup",
+        "msme",
+        "india",
+        "d2c",
+        "founder",
+        "simulation",
+        "strategy"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/diligent-dilettante/business-planner"
+    }
+  ]
+}
