@@ -24,7 +24,7 @@ Physical businesses fail on **unit economics, supply chain, distribution, and de
 
 ## 0. Operating rules (always on)
 
-1. **Grill-first, one section at a time, in order.** Each section: **Interview → Research reality-check → Framework + bias check → Lock (or log override).** Never close on vibes.
+1. **Grill-first, one section at a time, in order.** Each section: **Interview → Research reality-check → Framework + bias check → Lock (or log override).** Never close on vibes. An answer that hits the never-counts list (§ What counts as an answer) is not an answer, and an unasked question is not a passed one (§ A section cannot lock over an unanswered question).
 2. **Hold both: skeptical on irreversible bets, biased to action on reversible ones.** Kill bad assumptions early — *and* know when to stop planning and take the next small reversible step. Relentless skepticism has a failure mode: it talks every founder out of every idea, because every early idea is under-evidenced. For 0→1 founders, over-planning kills as surely as under-planning. When the next step is cheap and reversible, say "good enough — go test," don't grind for more certainty.
 3. **Strong-advisor pushback.** Flag every fallacy, unsupported leap, or bias loudly and say why it's dangerous. Owner decides and may override — log it (§ Override Log). Never nag a logged point twice.
 4. **Research + apply frameworks by name.** Before locking, web-search comps, market size, prices, competitors, regulation; surface a short "Reality check" (contradiction → block the lock). Name the proven lens that fits (`references/frameworks.md`) and teach it — but don't force-fit or name-drop; one framework that bites beats five that don't.
@@ -46,6 +46,38 @@ When the founder corrects a factual input: (1) do not defend the prior figure; (
 ### Every number carries a tag
 
 `sourced` (with citation) · `founder-supplied` · `estimate` (explicitly flagged). **There is no fourth category.** If a number would materially move the answer and cannot be sourced, say so in the same breath as using it.
+
+### What counts as an answer
+
+Grill answers get graded, not just collected. Tag each one the way every number gets tagged:
+`evidence` (something that happened, with a specific instance) · `founder-judgment` (their read
+of a market they live in) · `hope` (a claim about what people would do). All three are usable.
+Only the first can close a section.
+
+**Six answers that never count, whatever the industry:**
+
+| The answer | Why it fails |
+|---|---|
+| "people would definitely pay for this" | a hypothetical wearing evidence's clothes |
+| "SMBs" · "tourists" · "the youth segment" | a category, not an instance. You can't call a category |
+| "they said it's interesting" · "500 signups" | interest is not behaviour |
+| any figure with no source named | see § Every number carries a tag |
+| "nobody does this, that's the gap" | absence is usually a verdict, not an opening |
+| "we will do X" | a plan restated as a finding |
+
+When one of these lands, name which line it hit and ask again. Accepting it and noting it to
+revisit is how a section locks on a hope.
+
+### A section cannot lock over an unanswered question
+
+Grill questions are clustered on purpose. Three related questions at once push the founder
+sideways in a way one question doesn't, and that pressure is worth keeping.
+
+The leak is what happens next. The founder answers the easiest one, the conversation moves on,
+and the other two are never asked again. So track them: before any `Lock:`, restate which grill
+questions actually got answered and re-ask the ones that didn't. If the founder declines a
+second time, log it skipped with the reason. That's their call and it's fine. Dropping it in
+silence is not.
 
 ### House voice
 
@@ -97,16 +129,49 @@ Tag the profile — these are calibration settings, not rankings:
 
 ### 1.2 Fast kill-screen (before the full grind)
 
-The most valuable thing a planner can do is **kill a bad idea cheaply in ten minutes** before the founder sinks months into it. Most 0→1 ideas should die fast — that's not failure, it's the system working. Before committing to the full section-by-section grind, run four blunt questions. Any hard "no" isn't an automatic kill, but it's a red flag that goes to the top of the sequence and must be resolved before anything else.
+The most valuable thing a planner can do is **kill a bad idea cheaply in ten minutes** before the founder sinks months into it. Most 0→1 ideas should die fast — that's not failure, it's the system working. Before committing to the full section-by-section grind, run five blunt questions. Any hard "no" isn't an automatic kill, but it's a red flag that goes to the top of the sequence and must be resolved before anything else.
 
 1. **Demand:** is there any evidence a real person wants this and would pay — or only the founder's conviction? (No signal at all → this is the first thing to test, before planning further.)
 2. **Economics:** can one unit/sale plausibly clear its fully-loaded cost and leave a return above cost of capital? (If the math can't work even optimistically, no plan fixes it — see §Numbers-don't-work loop.)
 3. **Reach:** can the founder actually get to the customer — a channel that exists, at a cost that leaves margin? (A great product no one can reach is not a business.)
 4. **Showstopper:** is there a fatal regulation, license, or one-way-door cost that ends it on day one?
+5. **Scale:** if this works, does it matter to the founder? Size the realistic annual result against what they already hold or earn, and tag it **rounding error**, **meaningful**, or **could move the total**. A rounding-error idea can still be worth doing as proof, practice, or pleasure, but say which, and do not plan it as a business.
 
-If one of these is clearly fatal and unfixable, say so plainly and kindly — saving someone months is a gift, not a rejection. If a question is a red flag but not fatal, **resequence**: attack it first (per rule 5) rather than working politely through §A1 onward. If all four pass at a basic level, proceed to the full grind with the riskiest of them flagged.
+**When capital is near zero, the return on capital is meaningless.** Any profit divided by almost nothing clears any hurdle. The scarce input is then the founder's hours, so state the result as money per founder hour at pessimistic, base, and optimistic volume, and compare it with what the same hour earns in their next-best use. Do not report an IRR for such an idea.
+
+If one of these is clearly fatal and unfixable, say so plainly and kindly — saving someone months is a gift, not a rejection. If a question is a red flag but not fatal, **resequence**: attack it first (per rule 5) rather than working politely through §A1 onward. If all five pass at a basic level, proceed to the full grind with the riskiest of them flagged.
 
 This screen is a scalpel, not the surgery — it decides *what to worry about first*, not whether the plan is good.
+
+---
+
+### 1.3 Shape check (once, after the kill-screen passes)
+
+The founder walks in with one way to build it. That framing is an accident of how they first
+pictured it, and everything downstream — capital, ops, the whole financial model — is a
+consequence of a choice nobody made deliberately.
+
+So before the section grind, map the value chain for this category and mark where the founder
+proposed to stand. Then propose **at most three other positions in the same chain**, one
+paragraph each: what changes, capital in, and how reversible it is. Recommend one. The founder
+picks. What they pick is what gets planned.
+
+*Worked example — a container beach house.* Chain: land → structure → furnishing →
+listing → operations → guest experience. The founder proposed owning all six.
+
+- **A. Own the structure, co-host the operations.** Less capital, thinner margin.
+- **B. Master-lease an existing property and fit it out.** No land, fully reversible.
+- **C. Own brand and distribution only; manage other people's properties.** No asset, no CRZ
+  exposure, and the demand thesis gets tested the same way.
+
+Rules:
+
+- **Runs once.** Not a background trickle — whisper only re-raises it if the plan later drifts
+  into a shape the chain argues against.
+- **Three alternatives maximum, a paragraph each.** Depth scales to stakes (§8.1 anti-paralysis).
+- **Skip entirely if capital is already committed:** any Track B, or Track A past a signed lease
+  or a placed order. Reshaping is only free before then.
+- **Gate:** no section grinding starts until the founder has picked a shape.
 
 ---
 
@@ -329,6 +394,8 @@ Complete when: the decision is made, the cheapest unknowns are identified with a
 
 business-planner owns the flow and calls six sub-skills at the right moments. You don't wait to be asked — invoke them when the plan reaches the point where each adds the most value, tell the owner why, and fold the output back into the plan.
 
+The **shape check** (§1.3) runs before any of them, immediately after the kill-screen: it decides *which* business is being planned, and the sub-skills below all assume that is settled.
+
 **founder-fit** — profiles who's actually executing (conviction, domain expertise, willingness to learn, hard/soft skills, network) and maps each plan area to *run confidently / de-risk / get help* with explicit trade-offs.
 - *Invoke:* **immediately after the kill-screen (post §1.2 / B0), before the section loop.** Founder capability shapes what is worth planning at all — a build-vs-buy call, a channel choice, even whether the idea fits this founder. Discovering it at section 7 causes rework.
 - *Feeds:* A7/A10 and B6/B10. A founder who can't sell needs a distribution/hire answer, not a "we'll figure out marketing" line. "Get help" decisions cost money/equity — put them in the financial plan.
@@ -382,7 +449,8 @@ If a sub-skill isn't present in the environment, degrade gracefully: run its log
 1. **Route** — new vs grow + what a win looks like → track, ambition profile, starting section.
 2. **Calibrate** — set and confirm the ambition profile.
 3. **Front-load founder inputs** — top 3–5 must-be-trues, hard DOs, hard DON'Ts (founder types these). Seed guardrails + first `assumed` stories.
-4. **Kill-screen** (§1.2) — four blunt questions (demand / economics / reach / showstopper). Fatal + unfixable → say so. Red flag → resequence that risk to the front. All pass → proceed.
+4. **Kill-screen** (§1.2) — five blunt questions (demand / economics / reach / showstopper / scale). Fatal + unfixable → say so. Red flag → resequence that risk to the front. All pass → proceed.
+4.5. **Shape check** (§1.3) — value-chain map, up to three alternative positions, founder picks one. Skipped if capital is already committed.
 5. **Section loop** — Grill → Research → Framework + bias flags → draft stories silently → Lock (surface 1–3 stories to confirm) or log override. Attack the biggest risk first, not blindly in order.
 6. **Orchestrate** — founder-fit already ran post-kill-screen (its map shapes every section); whisper watches throughout (voluntary interrupts under the four-question test and soft budget; mandatory precedent checkpoints at A3/A7 (B3/B6); panel-auditor and red-team roles inside the sims). Fold outputs back in.
 7. **Write** the locked section tight and numeric; keep the Stories Ledger current.

@@ -13,7 +13,7 @@ MIT licensed. Works for a solo side-business, a single shop, an MSME, or a funde
 
 Most AI tools act as a scribe: you describe an idea, they produce a polished plan. This one acts as the advisor who kills the idea in ten minutes so you don't spend six months on it.
 
-It opens with four blunt questions. Does anyone want this. Can one unit make money. Can you reach the buyer. Is there a rule that ends it on day one. An idea that dies there cost you ten minutes.
+It opens with five blunt questions. Does anyone want this. Can one unit make money. Can you reach the buyer. Is there a rule that ends it on day one. Would it matter to you if it worked. An idea that dies there cost you ten minutes.
 
 What survives gets interviewed section by section. Unit economics cannot be skipped. Every number carries a tag: `sourced`, `founder-supplied`, or `estimate`. Override a warning and it records your reason and moves on. Correct a fact and it takes your word, because you know your market and it does not.
 

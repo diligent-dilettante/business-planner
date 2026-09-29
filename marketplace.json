@@ -9,7 +9,7 @@
       "name": "business-planner",
       "source": "./plugins/business-planner",
       "description": "Six-skill bundle: plan, validate, simulate (customer + competition), and run a physical business \u2014 Livelihood to Venture, with deep India context.",
-      "version": "3.2.2",
+      "version": "3.4.0",
       "keywords": [
         "business-plan",
         "startup",
